@@ -1,5 +1,5 @@
-LOCAL_PATH := $(call my-dir)
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/twrp_mayfly.mk
 
-ifneq ($(filter mayfly,$(TARGET_DEVICE)),)
-include $(call all-makefiles-under,$(LOCAL_PATH))
-endif
+COMMON_LUNCH_CHOICES := \
+    twrp_mayfly-eng
