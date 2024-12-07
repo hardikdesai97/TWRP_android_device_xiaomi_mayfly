@@ -16,6 +16,3 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_mayfly.mk \
-    $(LOCAL_DIR)/twrp_unicorn.mk \
-    $(LOCAL_DIR)/twrp_thor.mk \
-    $(LOCAL_DIR)/twrp_diting.mk
